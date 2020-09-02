@@ -1,0 +1,1 @@
+export const BASE_DATA_URL = 'http://www.omdbapi.com/?'

@@ -1,0 +1,88 @@
+.col-centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.header-context {
+ min-height: 10vh
+}
+
+.row-context {
+	min-height: 80vh;
+}
+
+.movie-row-context {
+	margin-top: 0%;
+	margin-bottom: 5%;
+}
+
+.breadcrumb-row {
+
+}
+
+.breadcrumb {
+	background: none;
+}
+
+.movie-poster{
+	transition: 0.5s ease;
+	backface-visibility: hidden;
+}
+.movie-quick-detail {
+	opacity: 0;
+	transition: 0.5s ease;
+}
+
+.movie-card {
+ height: 20rem;
+}
+
+.movie-card:hover .movie-quick-detail{
+	opacity: 1;
+}
+
+.movie-card:hover .movie-poster{
+	opacity: 0.2;
+}
+
+.movie-title {
+	font-size: 150%;
+	font-weight: bolder;
+	color: #34495E;
+}
+
+.results-context {
+	margin-top: -25vh;
+}
+
+.results-count {
+	color: #85929E;
+}
+
+.footer-context {
+	margin-top: auto;
+}
+
+.page-enter {
+ opacity: 0.01;
+ transform: translateY(-100%);
+}
+
+.page-enter-active {
+ opacity: 1;
+ transform: translateY(0%);
+ transition: all 600ms ease-in;
+}
+
+.page-exit {
+ opacity: 1;
+ transform: translateY(0%);
+}
+
+.page-exit-active {
+ opacity: 0.01;
+ transform: translateY(100%);
+ transition: all 600ms ease-out;
+}
