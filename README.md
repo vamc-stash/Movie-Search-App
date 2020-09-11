@@ -20,7 +20,7 @@ Current Working demo of the project is live at [movie-search](http://crooked-hea
     ```
   - Install the dependencies
     ```
-    npm install dependency-name
+    npm install
     ```
   - Run in development mode
     ```
